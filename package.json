@@ -1,0 +1,21 @@
+{
+    "name": "matt-vscode-theme",
+    "displayName": "Matt-vscode-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "matt-vscode-theme",
+                "uiTheme": "hc-black",
+                "path": "./themes/matt-vscode-theme-color-theme.json"
+            }
+        ]
+    }
+}

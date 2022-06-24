@@ -1,0 +1,467 @@
+{
+	"name": "matt-vscode-theme",
+	"colors": {
+		"editor.background": "#200020",
+		"editor.foreground": "#ffffff"
+	},
+	"tokenColors": [
+		{
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "#4444ff"
+			}
+		},
+
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#555555"
+			}
+		},
+
+		{
+			"scope": "keyword.control.if",
+			"settings" : {
+				"foreground" : "#ff0000"
+			}
+		},
+		{
+			"scope": "keyword.control.else",
+			"settings" : {
+				"foreground" : "#c06262"
+			}
+		},
+		{
+			"scope": "keyword.control.switch",
+			"settings" : {
+				"foreground" : "#ff7272"
+			}
+		},
+		{
+			"scope": "keyword.control.case",
+			"settings" : {
+				"foreground" : "#a71e1e"
+			}
+		},
+		{
+			"scope": "keyword.control.return",
+			"settings" : {
+				"foreground" : "#5555dd"
+			}
+		},
+		{
+			"scope": "storage.modifier.static",
+			"settings" : {
+				"foreground" : "#a5a5ca"
+			}
+		},
+		{
+			"scope": "keyword.control.directive.include",
+			"settings": {
+				"foreground": "#990099"
+			}
+		},
+		{
+			"scope": "storage.modifier.inline",
+			"settings": {
+				"foreground": "#990099"
+			}
+		},
+		{
+			"scope": "storage.type.built-in",
+			"settings": {
+				"foreground" : "#b8383c"
+			}
+		},
+		{
+			"scope": "meta.conditional.case",
+			"settings": {
+				"foreground" : "#ee5599"
+			}
+		},
+		{
+			"scope": "entity.name.type.parameter",
+			"settings": {
+				"foreground" : "#9c848c"
+			}
+		},		
+		{
+			"scope": "entity.name.function.call.cpp",
+			"settings": {
+				"foreground" : "#d636ae"
+			}
+		},
+
+
+
+		{
+			"scope": "meta.body.function.definition",
+			"settings": {
+				"foreground" : "#b8383c"
+			}
+		},
+
+		{
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground" : "#6666ff"
+			}
+		}, 
+
+
+		{
+			"scope": "constant.language.NULL",
+			"settings": {
+				"foreground" : "#666666"
+			}
+		},
+
+
+		{
+			"scope": "entity.name.function.definition",
+			"settings": {
+				"foreground" : "#ff44ff"
+			}
+		},
+
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground" : "#c500cc"
+			}
+		},
+		
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"entity.name.type",
+			],
+			"settings": {
+				"foreground": "#8929ff"
+			}
+		},
+
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"entity.name.function.member",
+			],
+			"settings": {
+				"foreground": "#5ff5f5"
+			}
+		},
+
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"constant.language.true",
+				"constant.language.false",
+			],
+			"settings": {
+				"foreground": "#5ff5f5"
+			}
+		},
+
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"entity.name.scope-resolution",
+			],
+			"settings": {
+				"foreground": "#5ff5f5"
+			}
+		},
+
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"meta.block",
+			],
+			"settings": {
+				"foreground": "#ddaadd"
+			}
+		},
+
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"source",
+			],
+			"settings": {
+				"foreground": "#222233"
+			}
+		},
+		
+
+		
+		
+
+		// {
+		// 	"scope": "constant.language",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"constant.numeric",
+		// 		"constant.other.color.rgb-value",
+		// 		"constant.other.rgb-value",
+		// 		"support.constant.color"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#b5cea8"
+		// 	}
+		// },
+		// {
+		// 	"scope": "constant.regexp",
+		// 	"settings": {
+		// 		"foreground": "#b46695"
+		// 	}
+		// },
+		// {
+		// 	"scope": "entity.name.tag",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "entity.name.tag.css",
+		// 	"settings": {
+		// 		"foreground": "#d7ba7d"
+		// 	}
+		// },
+		// {
+		// 	"scope": "entity.other.attribute-name",
+		// 	"settings": {
+		// 		"foreground": "#9cdcfe"
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"source.css entity.other.attribute-name",
+		// 		"source.css.less entity.other.attribute-name.id",
+		// 		"source.scss entity.other.attribute-name"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#d7ba7d"
+		// 	}
+		// },
+		// {
+		// 	"scope": "invalid",
+		// 	"settings": {
+		// 		"foreground": "#f44747"
+		// 	}
+		// },
+
+		// {
+		// 	"scope": "meta.selector",
+		// 	"settings": {
+		// 		"foreground": "#d7ba7d"
+		// 	}
+		// },
+		{
+			"name": "ahhhhhh",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#aeff9f"
+			}
+		},
+		// {
+		// 	"scope": "meta.preprocessor",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "meta.preprocessor.string",
+		// 	"settings": {
+		// 		"foreground": "#ce9178"
+		// 	}
+		// },
+		// {
+		// 	"scope": "meta.preprocessor.numeric",
+		// 	"settings": {
+		// 		"foreground": "#b5cea8"
+		// 	}
+		// },
+		// {
+		// 	"scope": "storage",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "storage.type",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "storage.modifier",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#ffff33b0"
+			}
+		},
+		{
+			"scope": "string.tag",
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		// {
+		// 	"scope": [
+		// 		"support.type.vendored.property-name",
+		// 		"support.type.property-name",
+		// 		"variable.css",
+		// 		"variable.scss",
+		// 		"variable.other.less"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#d4d4d4"
+		// 	}
+		// },
+		// {
+		// 	"scope": "keyword",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "keyword.control.if",
+		// 	"settings": {
+		// 		"foreground": "#8faec7"
+		// 	}
+		// },
+		// {
+		// 	"scope": "keyword.control.directive",
+		// 	"settings": {
+		// 		"foreground": "#00ff00"
+		// 	}
+		// },
+		// {
+		// 	"scope": "keyword.operator",
+		// 	"settings": {
+		// 		"foreground": "#d4d4d4"
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"keyword.operator.new",
+		// 		"keyword.operator.expression",
+		// 		"keyword.operator.cast",
+		// 		"keyword.operator.sizeof",
+		// 		"keyword.operator.logical.python"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "keyword.other.unit",
+		// 	"settings": {
+		// 		"foreground": "#b5cea8"
+		// 	}
+		// },
+		// {
+		// 	"scope": "support.function.git-rebase",
+		// 	"settings": {
+		// 		"foreground": "#d4d4d4"
+		// 	}
+		// },
+		// {
+		// 	"name": "Function declarations",
+		// 	"scope": [
+		// 		"entity.name.function",
+		// 		"support.function",
+		// 		"support.constant.handlebars"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#0000ff"
+		// 	}
+		// },
+		
+		// {
+		// 	"name": "Variable and parameter name",
+		// 	"scope": [
+		// 		"variable",
+		// 		// "meta.definition.variable.name",
+		// 		"support.variable"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#00ff00"
+		// 	}
+		// },
+	
+	
+	
+
+
+		// markup specific
+		// {
+		// 	"scope": "markup.underline",
+		// 	"settings": {
+		// 		"fontStyle": "underline"
+		// 	}
+		// },
+		// {
+		// 	"scope": "markup.bold",
+		// 	"settings": {
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
+		// {
+		// 	"scope": "markup.heading",
+		// 	"settings": {
+		// 		"foreground": "#6796e6"
+		// 	}
+		// },
+		// {
+		// 	"scope": "markup.italic",
+		// 	"settings": {
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"scope": "markup.inserted",
+		// 	"settings": {
+		// 		"foreground": "#b5cea8"
+		// 	}
+		// },
+		// {
+		// 	"scope": "markup.deleted",
+		// 	"settings": {
+		// 		"foreground": "#ce9178"
+		// 	}
+		// },
+		// {
+		// 	"scope": "markup.changed",
+		// 	"settings": {
+		// 		"foreground": "#569cd6"
+		// 	}
+		// },
+
+
+
+	]
+}
