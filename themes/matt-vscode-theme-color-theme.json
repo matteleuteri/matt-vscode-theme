@@ -32,15 +32,9 @@
 		},
 
 		{
-			"scope": "keyword.control.if",
+			"scope": ["keyword.control.if","keyword.control.else"],
 			"settings" : {
 				"foreground" : "#ff0000"
-			}
-		},
-		{
-			"scope": "keyword.control.else",
-			"settings" : {
-				"foreground" : "#c06262"
 			}
 		},
 		{
@@ -82,7 +76,7 @@
 		{
 			"scope": "storage.type.built-in",
 			"settings": {
-				"foreground" : "#b8383c"
+				"foreground" : "#ff2020"
 			}
 		},
 		{
@@ -201,6 +195,16 @@
 			],
 			"settings": {
 				"foreground": "#222233"
+			}
+		},
+
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"punctuation.separator.scope-resolution.function.call", "punctuation.separator.scope-resolution.function.definition",
+			],
+			"settings": {
+				"foreground": "#ff55ee"
 			}
 		},
 		
