@@ -32,12 +32,14 @@
 		},
 
 		{
-			"scope": ["source.cpp", "keyword.control.if",
-				"keyword.control.else"
-			   ,"storage.modifier.pointer"
-				,"punctuation.separator.delimiter"
-			,"punctuation.terminator.statement."
-		,"keyword.control"],
+			"scope": ["source.cpp", 
+				"constant",
+				"keyword.control.if",
+				"keyword.control.else",
+			   	"storage.modifier.pointer",
+				"punctuation.separator.delimiter",
+				"punctuation.terminator.statement.",
+				"keyword.control"],
 			"settings" : {
 				"foreground" : "#ff0000"
 			}
@@ -99,7 +101,7 @@
 		{
 			"scope": "entity.name.function.call.cpp",
 			"settings": {
-				"foreground" : "#d636ae"
+				"foreground" : "#ffa1e8"
 			}
 		},
 
@@ -162,16 +164,16 @@
 			}
 		},
 
-		{
-			"name": "Types declaration and references",
-			"scope": [
-				"constant.language.true",
-				"constant.language.false",
-			],
-			"settings": {
-				"foreground": "#5ff5f5"
-			}
-		},
+		// {
+		// 	"name": "Types declaration and references",
+		// 	"scope": [
+		// 		"constant.language.true",
+		// 		"constant.language.false",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#5ff5f5"
+		// 	}
+		// },
 
 		{
 			"name": "Types declaration and references",
@@ -281,15 +283,15 @@
 		// 		"foreground": "#d7ba7d"
 		// 	}
 		// },
-		{
-			"name": "ahhhhhh",
-			"scope": [
-				"punctuation.definition.tag"
-			],
-			"settings": {
-				"foreground": "#aeff9f"
-			}
-		},
+		// {
+		// 	"name": "ahhhhhh",
+		// 	"scope": [
+		// 		"punctuation.definition.tag"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#aeff9f"
+		// 	}
+		// },
 		// {
 		// 	"scope": "meta.preprocessor",
 		// 	"settings": {
