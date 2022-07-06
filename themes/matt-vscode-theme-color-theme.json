@@ -236,12 +236,12 @@
 		// 		"foreground": "#b5cea8"
 		// 	}
 		// },
-		// {
-		// 	"scope": "constant.regexp",
-		// 	"settings": {
-		// 		"foreground": "#b46695"
-		// 	}
-		// },
+		{
+			"scope": ["keyword.command.batchfile", "keyword.other.special-method.batchfile", "source.batchfile"],
+			"settings": {
+				"foreground": "#b46695"
+			}
+		},
 		// {
 		// 	"scope": "entity.name.tag",
 		// 	"settings": {
