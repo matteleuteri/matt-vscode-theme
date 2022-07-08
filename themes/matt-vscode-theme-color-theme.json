@@ -1,7 +1,7 @@
 {
 	"name": "matt-vscode-theme",
 	"colors": {
-		"editor.background": "#200020",
+		"editor.background": "#260546",
 		"editor.foreground": "#ffffff"
 	},
 	"tokenColors": [
